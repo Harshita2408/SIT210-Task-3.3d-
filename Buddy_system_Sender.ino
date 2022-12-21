@@ -15,7 +15,7 @@ char pass[] = SECRET_PASS;    // your network password (use for WPA, or use as k
 WiFiClient wifiClient;
 MqttClient mqttClient(wifiClient);
 
-const char broker[] = "broker.mqttdashboard.com";
+const char broker[] = "broker.hivemq.com";
 int        port     = 1883;
 const char topic[]  = "SIT210/wave";
 
